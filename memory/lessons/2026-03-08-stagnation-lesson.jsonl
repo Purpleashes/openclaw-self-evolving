@@ -1,0 +1,1 @@
+{"date": "2026-03-08", "title": "3月8日停滞的教训：需要主动任务调度机制", "problem": "只有被动的心跳触发，没有主动的任务调度和执行，导致一天没有任何主动的研究和迭代工作", "solution": "建立主动任务调度系统，包含：1)任务清单(tasks.json) 2)优先级系统(P0/P1/P2/P3) 3)状态跟踪(待办/进行中/已完成) 4)任务管理脚本 5)与心跳机制集成", "tags": ["stagnation", "task-scheduling", "proactive", "heartbeat", "failure-lesson"]}

@@ -1,0 +1,202 @@
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/scripts/check-oil-price.py", line 68, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/root/.openclaw/workspace/scripts/check-oil-price.py", line 39, in main
+    price = get_oil_price()
+            ^^^^^^^^^^^^^^^
+  File "/root/.openclaw/workspace/scripts/check-oil-price.py", line 21, in get_oil_price
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Error fetching oil price from EIA: HTTPSConnectionPool(host='api.eia.gov', port=443): Read timed out. (read timeout=10)
+Failed to fetch oil price
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Error fetching oil price from EIA: HTTPSConnectionPool(host='api.eia.gov', port=443): Read timed out. (read timeout=10)
+Failed to fetch oil price
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Error fetching oil price from EIA: HTTPSConnectionPool(host='api.eia.gov', port=443): Read timed out. (read timeout=10)
+Failed to fetch oil price
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Error fetching oil price from EIA: HTTPSConnectionPool(host='api.eia.gov', port=443): Read timed out. (read timeout=10)
+Failed to fetch oil price
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Error fetching oil price from EIA: HTTPSConnectionPool(host='api.eia.gov', port=443): Read timed out. (read timeout=10)
+Failed to fetch oil price
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Error fetching oil price from EIA: HTTPSConnectionPool(host='api.eia.gov', port=443): Read timed out. (read timeout=10)
+Failed to fetch oil price
+Error fetching oil price from EIA: HTTPSConnectionPool(host='api.eia.gov', port=443): Read timed out. (read timeout=10)
+Failed to fetch oil price
+Error fetching oil price from EIA: HTTPSConnectionPool(host='api.eia.gov', port=443): Read timed out. (read timeout=10)
+Failed to fetch oil price
+Error fetching oil price from EIA: HTTPSConnectionPool(host='api.eia.gov', port=443): Read timed out. (read timeout=10)
+Failed to fetch oil price
+Error fetching oil price from EIA: HTTPSConnectionPool(host='api.eia.gov', port=443): Read timed out. (read timeout=10)
+Failed to fetch oil price
+Error fetching oil price from EIA: HTTPSConnectionPool(host='api.eia.gov', port=443): Read timed out. (read timeout=10)
+Failed to fetch oil price
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Error fetching oil price from EIA: HTTPSConnectionPool(host='api.eia.gov', port=443): Read timed out. (read timeout=10)
+Failed to fetch oil price
+Error fetching oil price from EIA: HTTPSConnectionPool(host='api.eia.gov', port=443): Read timed out. (read timeout=10)
+Failed to fetch oil price
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Error fetching oil price from EIA: HTTPSConnectionPool(host='api.eia.gov', port=443): Read timed out. (read timeout=10)
+Failed to fetch oil price
+Error fetching oil price from EIA: HTTPSConnectionPool(host='api.eia.gov', port=443): Read timed out. (read timeout=10)
+Failed to fetch oil price
+Error fetching oil price from EIA: HTTPSConnectionPool(host='api.eia.gov', port=443): Read timed out. (read timeout=10)
+Failed to fetch oil price
+Error fetching oil price from EIA: HTTPSConnectionPool(host='api.eia.gov', port=443): Read timed out. (read timeout=10)
+Failed to fetch oil price
+Error fetching oil price from EIA: HTTPSConnectionPool(host='api.eia.gov', port=443): Read timed out. (read timeout=10)
+Failed to fetch oil price
+Error fetching oil price from EIA: HTTPSConnectionPool(host='api.eia.gov', port=443): Read timed out. (read timeout=10)
+Failed to fetch oil price
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Error fetching oil price from EIA: HTTPSConnectionPool(host='api.eia.gov', port=443): Read timed out. (read timeout=10)
+Failed to fetch oil price
+Error fetching oil price from EIA: HTTPSConnectionPool(host='api.eia.gov', port=443): Read timed out. (read timeout=10)
+Failed to fetch oil price
+Error fetching oil price from EIA: HTTPSConnectionPool(host='api.eia.gov', port=443): Read timed out. (read timeout=10)
+Failed to fetch oil price
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold
+Current Brent crude price: $77.24/barrel
+Price $77.24 is below $80 threshold

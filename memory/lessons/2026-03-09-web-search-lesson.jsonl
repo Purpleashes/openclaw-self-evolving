@@ -1,0 +1,1 @@
+{"date": "2026-03-09", "title": "网页搜索方案的教训：不要依赖需要API key的工具", "problem": "web_search工具需要Brave API key，配置麻烦且经常出错，无法稳定获取信息", "solution": "停用web_search工具，改用以下skill组合：1)multi-search-engine(17个搜索引擎，无需API key) 2)web_fetch(直接网页访问) 3)agent-browser(浏览器交互) 4)playwright-scraper-skill(复杂网页抓取)", "tags": ["web-search", "skill", "api-key", "tools", "failure-lesson"]}

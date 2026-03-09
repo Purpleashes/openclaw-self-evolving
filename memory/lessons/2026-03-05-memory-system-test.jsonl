@@ -1,0 +1,1 @@
+{"date": "2026-03-05", "title": "三层记忆系统集成测试经验", "problem": "如何验证三层记忆系统(P0/P1/P2)是否成功集成到OpenClaw服务器", "solution": "执行7项测试：1)文件结构验证 2)MEMORY.md格式验证 3)AGENTS.md规则验证 4)memory-janitor.py功能测试 5)Cron定时任务验证 6)本地规则文件验证 7)备份验证", "tags": ["memory-system", "testing", "integration", "openclaw"]}

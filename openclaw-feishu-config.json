@@ -1,0 +1,16 @@
+
+{
+  "channels": {
+    "feishu": {
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "accounts": {
+        "main": {
+          "appId": "cli_a924fe567df81cd2",
+          "appSecret": "w17UrxuFm1mq8jLHuj6m2fDUKpGRVByE",
+          "botName": "OpenClaw Assistant"
+        }
+      }
+    }
+  }
+}
