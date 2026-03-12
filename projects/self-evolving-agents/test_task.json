@@ -1,0 +1,14 @@
+
+{
+  "id": "test-001",
+  "title": "Test: 可解释检索验证",
+  "description": "这是一个测试任务，用于验证可解释检索的效果，关键词包含：research, memory, iteration",
+  "priority": "P2",
+  "status": "pending",
+  "created": "2026-03-11",
+  "tags": [
+    "research",
+    "test",
+    "memory"
+  ]
+}

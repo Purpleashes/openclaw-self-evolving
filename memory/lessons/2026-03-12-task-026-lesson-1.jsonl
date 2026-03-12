@@ -1,0 +1,11 @@
+{
+  "date": "2026-03-12",
+  "title": "策略：建立定期检查的任务调度机制...",
+  "problem": "需要可重用的执行策略",
+  "solution": "建立定期检查的任务调度机制",
+  "tags": [
+    "strategy",
+    "auto-extracted",
+    "reusable"
+  ]
+}

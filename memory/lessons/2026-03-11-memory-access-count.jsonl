@@ -1,0 +1,1 @@
+{"date": "2026-03-11", "title": "记忆访问频率追踪的实现", "problem": "只有时间分层（P0/P1/P2），没有访问频率追踪，无法识别活跃记忆，检索效率低", "solution": "添加记忆访问频率追踪：在经验/lesson文件中添加access_count字段，创建访问计数追踪文件（memory/access_counts.json），展示经验时自动递增access_count，为Hot/Warm/Cold分层奠定基础。", "tags": ["memory", "iteration", "access-count", "best-practice"]}

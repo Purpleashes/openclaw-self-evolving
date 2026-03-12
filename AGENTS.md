@@ -241,6 +241,37 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+## 📚 Self-Improvement Logging (from self-improving-agent skill)
+
+Adopt structured logging for learnings, errors, and feature requests:
+
+### Key Files
+- `.learnings/LEARNINGS.md` — Corrections, knowledge gaps, best practices
+- `.learnings/ERRORS.md` — Command failures, exceptions, unexpected behavior
+- `.learnings/FEATURE_REQUESTS.md` — User-requested capabilities
+
+### When to Log
+- **Command/operation fails** → Log to `.learnings/ERRORS.md`
+- **User corrects you** → Log to `.learnings/LEARNINGS.md` with category `correction`
+- **User wants missing feature** → Log to `.learnings/FEATURE_REQUESTS.md`
+- **API/external tool fails** → Log to `.learnings/ERRORS.md`
+- **Knowledge was outdated** → Log to `.learnings/LEARNINGS.md` with category `knowledge_gap`
+- **Found better approach** → Log to `.learnings/LEARNINGS.md` with category `best_practice`
+
+### Promotion Workflow
+When learnings prove broadly applicable, promote them to:
+- `SOUL.md` — Behavioral guidelines, communication style
+- `AGENTS.md` — Workflow improvements, automation rules
+- `TOOLS.md` — Tool capabilities, integration gotchas
+- `MEMORY.md` — Long-term memory (P0/P1/P2 layers)
+
+### Periodic Review
+- Before starting major tasks: Review `.learnings/`
+- Weekly: Review and promote applicable learnings
+- Resolve fixed items, link related entries, escalate recurring issues
+
+---
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.

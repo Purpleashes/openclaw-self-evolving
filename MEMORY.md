@@ -43,11 +43,16 @@
 - [P1][2026-03-05] 3 月 15 日：王五生日
 
 ## Temporary [P2]
+- [P2][2026-03-12] 定期检查lesson目录 (经验已保存)
+
 - [P2][2026-03-05] 进行三层记忆系统融合实施
 - [P2][2026-03-05] 配置 memory-janitor.py 自动归档脚本
 - [P2][2026-03-09] 张洋铨消息自动回复机制已配置
 - [P2][2026-03-09] 会话开始钩子自动化约定：每次新会话开始时，柏林主动运行 session_start_hook.py，自动展示状态更新
 
+- [P2][2026-03-09] Test memory_helper.py text output
+- [P2][2026-03-09] Test memory_helper.py --json
+- [P2][2026-03-09] Test memory_helper.py --json again
 ---
 *Lessons & historical details: `memory/lessons/*.jsonl` + `memory/archive/`*
 *Use `memory_search` to find archived content*

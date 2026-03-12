@@ -23,15 +23,6 @@ python3 /root/.openclaw/workspace/projects/self-evolving-agents/task_manager.py
 /root/.openclaw/workspace/projects/self-evolving-agents/tasks.json
 ```
 
-## Daily Analysis Task (Legacy, now managed by task system)
-- **时间**: 每天晚上 9:00-11:30（Asia/Shanghai）
-- **任务**: 进行当日自我迭代与学习研究的分析总结
-- **内容**:
-  1. 回顾当日调研和学习内容
-  2. 识别自我迭代的机会
-  3. 更新研究文档和进度
-  4. 准备次日计划
-
 ## 🔄 Workflow Reminder
 
 Never let a day pass without active work. The task system exists to eliminate that.
@@ -39,6 +30,5 @@ Never let a day pass without active work. The task system exists to eliminate th
 ## 📚 Lesson Check Reminder
 
 **每两天检查一次lesson目录**：
-- 检查是否有需要迭代的教训需要新增到lesson中
-- 下次检查时间：2026-03-11
-- 检查任务：task-009（定期检查lesson目录）
+- 检查任务：task-026（定期检查lesson目录）
+- 下次检查时间：2026-03-13

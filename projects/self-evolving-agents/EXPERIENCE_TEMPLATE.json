@@ -1,0 +1,36 @@
+
+{
+  "task_id": "task-XXX",
+  "task_title": "任务标题",
+  "task_type": "任务类型（如github_research、script_testing、skill_usage等）",
+  "context": "任务上下文和目标",
+  "actions": [
+    "步骤1",
+    "步骤2",
+    "步骤3"
+  ],
+  "tools_used": [
+    "tool1",
+    "tool2"
+  ],
+  "outcome": "success/failure/partial",
+  "key_insights": [
+    "关键洞察1",
+    "关键洞察2"
+  ],
+  "reusable_strategies": [
+    "可重用策略1",
+    "可重用策略2"
+  ],
+  "problems_encountered": [
+    "遇到的问题1",
+    "遇到的问题2"
+  ],
+  "solutions_applied": [
+    "应用的解决方案1",
+    "应用的解决方案2"
+  ],
+  "user_feedback": "用户反馈（如果有）",
+  "timestamp": "YYYY-MM-DD HH:MM:SS",
+  "access_count": 1
+}

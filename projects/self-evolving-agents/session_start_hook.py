@@ -9,12 +9,18 @@ from datetime import datetime, timedelta
 from pathlib import Path
 import sys
 
+# Add the project directory to the path
+sys.path.insert(0, str(Path(__file__).parent))
+
 # 工作目录
 WORKSPACE = Path("/root/.openclaw/workspace")
 MEMORY_DIR = WORKSPACE / "memory"
 PROJECT_DIR = WORKSPACE / "projects" / "self-evolving-agents"
 TASKS_FILE = PROJECT_DIR / "tasks.json"
 MEMORY_FILE = WORKSPACE / "MEMORY.md"
+
+from memory_access_hook import MemoryAccessHook
+from memory_flushing import MemoryFlushing
 
 
 def get_recent_memory_files(days=2):
@@ -129,6 +135,28 @@ def main():
             print(f"\n... 还有 {len(pending) - 5} 个任务")
     else:
         print("没有待办任务")
+    print()
+    
+    # 3.5 记忆分层状态
+    print("--- 🧠 记忆分层状态 ---")
+    try:
+        hook = MemoryAccessHook()
+        flushing = MemoryFlushing()
+        
+        # Memory tier stats
+        exp_tiers = {"hot": 0, "warm": 0, "cold": 0}
+        for data in hook.access_counts["experiences"].values():
+            tier = data.get("tier", "cold")
+            exp_tiers[tier] += 1
+        
+        print(f"\n📝 经验分层: Hot={exp_tiers['hot']}, Warm={exp_tiers['warm']}, Cold={exp_tiers['cold']}")
+        
+        # Context status
+        context_status = flushing.check_context_status()
+        print(f"📊 上下文状态: {context_status['current_tokens']:,} / {context_status['context_limit']:,} tokens ({context_status['usage_percent']:.1f}%)")
+        print(f"   状态: {'✅ Safe' if context_status['status'] == 'safe' else '⚠️ Warning' if context_status['status'] == 'warning' else '🚨 Danger'}")
+    except Exception as e:
+        print(f"⚠️ 无法获取记忆状态: {e}")
     print()
     
     # 4. 下一步建议

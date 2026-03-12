@@ -1,0 +1,16 @@
+{
+  "task_id": "task-023",
+  "task_title": "Iteration 018：实现经验总结与重用机制",
+  "task_type": "general",
+  "context": "创建经验存储目录、经验模板、在任务完成后自动提取经验、在任务开始前展示相关经验",
+  "actions": [],
+  "tools_used": [],
+  "outcome": "success",
+  "key_insights": [],
+  "reusable_strategies": [],
+  "problems_encountered": [],
+  "solutions_applied": [],
+  "user_feedback": "",
+  "timestamp": "2026-03-10 14:34:53",
+  "access_count": 4
+}

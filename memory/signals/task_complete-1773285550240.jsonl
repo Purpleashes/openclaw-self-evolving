@@ -1,0 +1,11 @@
+{
+  "task_id": "task-026",
+  "task_title": "定期检查lesson目录",
+  "success": true,
+  "duration_ms": 1,
+  "output_summary": "Task task-026 completed successfully",
+  "output_quality": "good",
+  "signal_type": "task_complete",
+  "timestamp": 1773285550240,
+  "datetime": "2026-03-12T11:19:10.240184"
+}

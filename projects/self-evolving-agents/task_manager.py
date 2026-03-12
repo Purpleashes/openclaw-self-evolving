@@ -129,9 +129,54 @@ class TaskManager:
             print("   %s" % next_task['description'])
 
 
+def get_status_json(manager):
+    """Get task status as JSON"""
+    metadata = manager.data["metadata"]
+    next_task = manager.get_next_task()
+    
+    result = {
+        "total_tasks": metadata["totalTasks"],
+        "completed_tasks": metadata["completedTasks"],
+        "in_progress_tasks": metadata["inProgressTasks"],
+        "backlog_tasks": metadata["backlogTasks"],
+    }
+    
+    if next_task:
+        result["next_task"] = next_task
+    
+    next_actions = []
+    if next_task:
+        next_actions.append({
+            "command": "start_task.py <task_id>",
+            "description": "Start the next task",
+            "params": {"task_id": next_task["id"]}
+        })
+    next_actions.append({
+        "command": "add_task.py <title> <description> [priority] [due]",
+        "description": "Add a new task"
+    })
+    
+    return {
+        "ok": True,
+        "command": "task_manager.py",
+        "result": result,
+        "next_actions": next_actions
+    }
+
+
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="Task Manager")
+    parser.add_argument("--json", action="store_true", help="Output JSON format")
+    args = parser.parse_args()
+    
     manager = TaskManager()
-    manager.print_status()
+    
+    if args.json:
+        status_json = get_status_json(manager)
+        print(json.dumps(status_json, indent=2, ensure_ascii=False))
+    else:
+        manager.print_status()
 
 
 if __name__ == "__main__":

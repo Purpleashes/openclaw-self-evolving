@@ -1,0 +1,63 @@
+{
+  "type": "lesson-check",
+  "timestamp": "2026-03-12 11:18:49",
+  "summary": {
+    "total_lessons_checked": 13,
+    "duplicates_found": 0,
+    "stale_lessons_found": 0,
+    "under_tagged_found": 0
+  },
+  "details": {
+    "total_lessons": 13,
+    "duplicates": [],
+    "stale_lessons": [],
+    "tag_analysis": {
+      "tag_distribution": {
+        "stagnation": 1,
+        "task-scheduling": 2,
+        "proactive": 2,
+        "heartbeat": 1,
+        "failure-lesson": 2,
+        "communication": 1,
+        "persona": 1,
+        "best-practice": 4,
+        "memory": 2,
+        "PAI": 1,
+        "learning-loop": 1,
+        "hooks": 1,
+        "user-model": 1,
+        "iteration": 7,
+        "review": 1,
+        "consistency": 1,
+        "simple-first": 1,
+        "strategy": 1,
+        "success-lesson": 3,
+        "principles": 1,
+        "productivity": 1,
+        "evaluation": 1,
+        "standards": 1,
+        "measurement": 1,
+        "mechanism": 2,
+        "reflection": 2,
+        "continuous": 1,
+        "learning": 1,
+        "access-count": 1,
+        "daily-log": 1,
+        "self-improvement": 1,
+        "memory-system": 1,
+        "testing": 1,
+        "integration": 1,
+        "openclaw": 1,
+        "experience": 1,
+        "lesson": 1,
+        "clarification": 1,
+        "web-search": 1,
+        "skill": 1,
+        "api-key": 1,
+        "tools": 1
+      },
+      "under_tagged": []
+    },
+    "check_date": "2026-03-12"
+  }
+}

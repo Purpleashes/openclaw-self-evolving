@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "skills": {
+    "self-improving-agent": {
+      "name": "self-improving-agent",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=self-improving-agent",
+      "source": "skillhub",
+      "version": "1.0.11"
+    },
+    "tavily-search": {
+      "name": "Tavily Web Search",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=tavily-search",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "edison-agent-reach": {
+      "name": "Edison Agent Reach",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=edison-agent-reach",
+      "source": "skillhub",
+      "version": "1.0.0"
+    }
+  }
+}

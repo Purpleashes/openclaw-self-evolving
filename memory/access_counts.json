@@ -1,0 +1,34 @@
+{
+  "experiences": {
+    "task-025": {
+      "count": 3,
+      "last_accessed": "2026-03-12 11:17:50",
+      "tier": "warm"
+    },
+    "task-026": {
+      "count": 2,
+      "last_accessed": "2026-03-12 11:17:50",
+      "tier": "warm"
+    },
+    "task-023": {
+      "count": 4,
+      "last_accessed": "2026-03-12 11:17:50",
+      "tier": "warm"
+    },
+    "task-009": {
+      "count": 1,
+      "last_accessed": "2026-03-11 00:33:12",
+      "tier": "cold"
+    },
+    "task-024": {
+      "count": 3,
+      "last_accessed": "2026-03-12 11:17:50",
+      "tier": "warm"
+    }
+  },
+  "lessons": {},
+  "memory_md": {
+    "count": 0,
+    "last_accessed": null
+  }
+}

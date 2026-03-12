@@ -5,6 +5,7 @@ Memory Helper Script
 Helps manage MEMORY.md file with proper P0/P1/P2 formatting
 """
 
+import sys
 from datetime import datetime
 from pathlib import Path
 
@@ -89,18 +90,63 @@ def add_memory_entry(priority, content, date=None):
     print(f"Added memory entry: {entry.strip()}")
 
 
+def get_result_json(priority, content, date, entry):
+    """Get result as JSON"""
+    next_actions = [
+        {
+            "command": "memory_helper.py <priority> <content> [--date YYYY-MM-DD]",
+            "description": "Add another memory entry"
+        },
+        {
+            "command": "cat /root/.openclaw/workspace/MEMORY.md",
+            "description": "View updated MEMORY.md"
+        }
+    ]
+    
+    return {
+        "ok": True,
+        "command": f"memory_helper.py {priority} \"{content}\" {f'--date {date}' if date else ''}".strip(),
+        "result": {
+            "priority": priority,
+            "content": content,
+            "date": date,
+            "entry": entry.strip()
+        },
+        "next_actions": next_actions
+    }
+
+
 def main():
     """Main function for CLI use"""
     import argparse
+    import json
+    from datetime import datetime
     
     parser = argparse.ArgumentParser(description="Memory Helper Script")
     parser.add_argument("priority", choices=["P0", "P1", "P2"], help="Priority level (P0, P1, P2)")
     parser.add_argument("content", help="Memory content")
     parser.add_argument("--date", help="Date in YYYY-MM-DD format (defaults to today)")
+    parser.add_argument("--json", action="store_true", help="Output JSON format")
     
     args = parser.parse_args()
     
+    if args.date is None:
+        date = datetime.now().strftime("%Y-%m-%d")
+    else:
+        date = args.date
+    
+    if args.priority == "P0":
+        entry = f"- [P0] {args.content}\n"
+    else:
+        entry = f"- [{args.priority}][{date}] {args.content}\n"
+    
+    # Add the entry first
     add_memory_entry(args.priority, args.content, args.date)
+    
+    if args.json:
+        result_json = get_result_json(args.priority, args.content, date, entry)
+        print(json.dumps(result_json, indent=2, ensure_ascii=False))
+        sys.exit(0)
 
 
 if __name__ == "__main__":
